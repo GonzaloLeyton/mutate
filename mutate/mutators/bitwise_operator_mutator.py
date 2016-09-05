@@ -1,7 +1,7 @@
 import ast
 import copy
 
-from mutators.base_mutator import BaseMutator
+from base_mutator import BaseMutator
 
 
 class BitwiseOperatorMutator(BaseMutator):

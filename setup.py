@@ -23,10 +23,10 @@ setup(
     zip_safe=False,
     include_package_data=True,
     keywords='mutate',
-    packages=['mutate'],
+    packages=['mutate', 'mutate.mutators'],
     entry_points={
         'console_scripts': [
-            "mutate=mutate.py:main"
+            "mutate=mutate.mutate:main"
         ]
     },
 )
