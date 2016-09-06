@@ -16,13 +16,18 @@ Currently, the tool focuses on mutation in the following operator classification
 Details of the specific mutations are shown in the mindmap below.
 
 ## Installation
-`git clone http://git.prod.skyscanner.local/DelDewar/mutate.git mutate`
+`git clone http://github.com/GonzaloLeyton/mutate.git mutate`
 
 `cd mutate`
 
 [set up your virtual environment with python 2.7.x]
 
 `pip install -r requirements.txt`
+
+
+## You also can try:
+`pip install git+https://github.com/GonzaloLeyton/mutate.git`
+
 
 ## Usage:
 
